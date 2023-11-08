@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+
+/* screen */
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/chats.css";
+@import "screen/find.css";
+
+body {
+  color: var(--icon);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.main-screen {
+  padding: var(--horizontal-space);
+}

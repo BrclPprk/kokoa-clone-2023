@@ -1,0 +1,33 @@
+.status-bar {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.statue-bar__column {
+  width: 33.3%;
+}
+
+.statue-bar__column:first-child span {
+  margin-right: 5px;
+}
+
+.statue-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.statue-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.statue-bar__column:last-child i {
+  margin-left: 5px;
+}
