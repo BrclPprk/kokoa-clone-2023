@@ -31,9 +31,16 @@
 }
 
 .recommended-friends span {
-  display: block;
-  text-align: center;
-  margin: 100px 0px;
+  display: flex;
+  height: calc(100vh - 360px);
+  justify-content: center;
+  align-items: center;
   font-size: 18px;
   opacity: var(--opacity-title);
+}
+
+@media screen and (max-height: 382px) {
+  .recommended-friends span {
+    display: none;
+  }
 }
